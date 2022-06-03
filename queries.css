@@ -1,0 +1,362 @@
+@media screen and (max-width: 860px){
+    .div-palabra{
+        height: 20%;
+        margin: 0;
+    }
+    .parrafo-palabra{
+        height: 60%;
+        margin:0px auto;
+    }
+    .intentos-finjuego{
+        height: 35%;
+        margin: 0;
+        font-size: 18px;
+    }
+    .span-pista{
+        font-size: 15px;
+    }
+    .btn2{
+        font-size: 16px;
+        font-weight: 100;
+        width: 32%;
+    }
+    .div-abecedario{
+        height: 25%;
+        justify-self: center;
+        align-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(40px, auto));
+    }
+}
+@media screen and (max-width: 675px){
+    header{
+        height: 8vh;
+    }
+    #logo-alura{
+        height: 70%;
+    }
+
+    #toggle{
+        width: 78px;
+        height: 39px;
+    }
+      
+    #toggle .indicator{
+        width: 39px;
+        height: 39px;
+    }
+    #toggle.active .indicator{
+        left: 39px;
+    }
+    .globo, .cuerda{
+        height: 30px;
+    }
+    .section-juego-ahorcado{
+        height: 90%;
+        width: 100%;
+    }
+    .div-imagen-ambas{
+        height: 40%;
+    }
+    .div-palabra{
+        justify-content: space-around;
+        height: 15%;
+    }
+    .intentos-finjuego{
+        height: 15%;
+    }
+    .parrafo-palabra{
+        letter-spacing: 20px;
+    }
+    .parrafo-palabra span{
+        width: 25px;
+    }
+    .div-pista-botones{
+        height: 16%;
+
+    }
+    .span-pista{
+        font-size: 14px;
+        height: 15%;
+    }
+    .botones-juego{
+        height: 60%;
+    }
+    .div-abecedario{
+        height: 25%;
+        grid-template-rows: auto;
+        grid-gap: 4% 3%;
+        justify-self: flex-start;
+    }
+}
+@media screen and (max-width: 640px){
+    .section-juego-ahorcado{
+        height: 95%;
+    }
+    .descripcion-agregar-palabra{
+    font-size: 12px;
+    }
+    .div-info-agregar-cancelar{
+        height: 20%;
+    }
+    .div-botones-agregar-cancelar{
+        height: 55%;
+    }
+    .btn-agregar-jugar, .btn-cancelar{
+        width: 48%;
+    }
+    .span-pista{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 560px){
+
+    .div-pista-botones{
+        height: 12%;
+        justify-content: space-around;
+    }
+    .botones-juego{
+        height:70% ;
+    }
+    .parrafo-palabra{
+        letter-spacing: 15px;
+    }
+    .parrafo-palabra span{
+        margin: 0px 8px ;
+    }
+    #btn-letra{
+        height: 35px;
+    }
+    .div-abecedario{
+        grid-template-rows: repeat(auto-fit, minmax(25px,auto));
+        height: 30%;
+    }
+
+}
+@media screen and (max-width: 460px){
+    .main{
+        width: 90vw;
+        height: 85vh;
+    }
+    .btn-iniciar{
+        height: 12vh;
+        width: 55vw;
+        font-size: 20px;
+    }
+    .btn-inicio-agregar{
+        height: 10vh;
+        width: 50vw;
+        font-size: 16px;
+    }
+    .input-agregar-palabra, .input-agregar-pista{
+        font-size: 28px;
+    }
+    .section-juego-ahorcado{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .div-imagen-ambas{
+        height: 35%;
+    }
+    .div-palabra{
+        height: 12%;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .intentos-finjuego{
+        font-size: 15px;
+    }
+    .parrafo-palabra{
+        font-size: 30px;
+        height: 50%;
+        align-items: center;
+        text-align: center;
+    }
+    .parrafo-palabra span{
+        margin: 0px 5px ;
+        height: 100%;
+    }
+    .div-pista-botones{
+        height: 25%;
+        flex-direction: column;
+    }
+    .span-pista{
+        height: 10%;
+    }
+    .botones-juego{
+        flex-direction: column;
+        height: 90%;
+    }
+    .btn2{
+        height: 31%;
+        width: 100%;
+    }
+    .div-abecedario{
+        padding: 0;
+        height: 25%;
+        grid-template-columns: repeat(auto-fit, minmax(25px, auto));
+        grid-template-rows: repeat(auto-fit, minmax(25px,auto));
+        grid-gap: 4% 3%;
+    }
+    #btn-letra{
+        height: 40px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 380px){
+    .div-imagen-ambas{
+        height: 35%;
+    }
+    .div-pista-botones{
+        height: 25%;
+    }
+    .span-pista{
+        font-size: 13px;
+    }
+    .div-abecedario{
+        height: 25%;
+        grid-gap: 3% 3%;
+    }
+    .parrafo-palabra span{
+        width: 18px;
+    }
+    .parrafo-palabra{
+        letter-spacing: 7px;
+    }
+    #btn-letra{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 330px){
+    #toggle{
+        width: 66px;
+        height: 33px;
+    }
+      
+    #toggle .indicator{
+        width: 33px;
+        height: 33px;
+    }
+    #toggle.active .indicator{
+        left: 33px;
+    }
+    .globo, .cuerda{
+        height: 28px;
+    }
+    .div-abecedario{
+        height: 25%;
+        grid-gap: 3% 3%;
+        
+    }
+    #btn-letra{
+        height: 25px;
+        width: 25px;
+    }
+}
+
+
+/* Landscape */
+@media (max-width: 700px) and (orientation: landscape) {
+    header{
+        height: 11vh;
+    }
+    #toggle{
+        width: 64px;
+        height: 32px;
+    }
+      
+    #toggle .indicator{
+        width: 32px;
+        height: 32px;
+    }
+    #toggle.active .indicator{
+        left: 32px;
+    }
+    .globo, .cuerda{
+        height: 30px;
+    }
+    .main{
+        width: 100vw;
+        height: 90vh;
+    }
+    .div-info-agregar-cancelar{
+        height: 30%;
+    }
+    .botones-iniciar{
+        height: 45%;
+    }
+    .btn-iniciar{
+        height: 45%;
+    }
+    .btn-inicio-agregar{
+        height: 35%;
+    }
+    .section-iniciar{
+        height: 90%;
+    }
+    .section-juego-ahorcado{
+        width: 90%;
+        justify-content: space-around;
+        height: 90%;
+    }
+    .div-imagen-ambas{
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        height: 52%;
+        width: 100%;
+    }
+    .div-imagen{
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    .intentos-finjuego{
+        font-size: 14px;
+    }
+    .span-pista{
+        font-size: 14px;
+    }
+    .div-palabra{
+        height: 20%;
+    }
+    .parrafo-palabra{
+        font-size: 30px;
+    }
+    .div-pista-botones{
+        height: 20%;
+        justify-content: space-between;
+    }
+    .div-abecedario{
+        display: none;
+    }
+    .div-abecedario-landscape{
+        display: grid;
+        height: 100%;
+        align-items: center;
+        justify-items: center;
+        padding: 5px;
+        grid-template-columns: repeat(auto-fit, 32px);
+        grid-gap: 2% 3%;
+        grid-template-rows: repeat(auto-fit, minmax(33px,40px));
+        width: 50%;
+        padding: 0%;
+    }
+
+} 
+@media (max-width: 600px) and (orientation: landscape) {
+    .main{
+        height: 90vh;
+    }
+    .div-abecedario-landscape{
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(15px, 20px));
+        grid-gap: 3% 4%;
+        grid-template-rows: repeat(auto-fit, minmax(25px,30px));
+        width: 50%;
+
+    }
+    #btn-letra{
+        font-size: 20px;
+    }
+
+} 
