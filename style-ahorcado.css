@@ -267,6 +267,7 @@ input::placeholder{
   height: 40%;
   margin:5px auto;
   font-size: 40px;
+  font-weight: 400;
   letter-spacing: 12px;
 }
 
