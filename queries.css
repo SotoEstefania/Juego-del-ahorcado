@@ -1,4 +1,4 @@
-@media screen and (max-width: 850px){
+@media screen and (max-width: 750px){
     .section-juego-ahorcado{
         width: 90%;
     }
@@ -19,6 +19,9 @@
     .div-pista-botones{
         height: 15vh;
     }
+    .botones-juego{
+        height: 80%;
+    }
     .btn2{
         width: 32%;
     }
@@ -29,9 +32,6 @@
         padding: 0;
         grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
         grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
-    }
-    .botones-juego{
-        height: 80%;
     }
 }
 @media screen and (max-width: 760px){
@@ -102,7 +102,7 @@
         grid-template-rows: auto;
     }
     #btn-letra{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 470px){
@@ -124,7 +124,7 @@
         font-size: 15px;
     }
     .parrafo-palabra{
-        font-size: 30px;
+        font-size: 35px;
         height: 50%;
     }
     .parrafo-palabra span{
@@ -151,8 +151,29 @@
 }
 
 @media screen and (max-width: 420px){
+    header{
+        height: 44px;
+    }
+    #logo-alura{
+        height: 34px;
+    }
+    #toggle{
+        height: 34px;
+        width: 68px;
+    } 
+    #toggle .indicator{
+        height: 34px;
+        width: 34px;
+    }
+    #toggle.active .indicator{
+        left: 34px;
+    }
+    .globo, .cuerda{
+        height: 30px;
+        width: 30px;
+    }
     .div-imagen-ambas{
-        height: 25vh;
+        height: 28vh;
     }
     .div-info-agregar-cancelar{
         height: 25vh;
@@ -161,7 +182,6 @@
         font-size: 12px;
     }
     .div-abecedario{
-        height: 25%;
         grid-gap: 3% 3%;
     }
     .parrafo-palabra span{
@@ -172,39 +192,3 @@
     }
 
 }
-
-
-/* Landscape */
-/* @media (max-width: 700px) and (orientation: landscape) {
-    .div-abecedario{
-        display: none;
-    }
-    .div-abecedario-landscape{
-        display: grid;
-        height: 100%;
-        align-items: center;
-        justify-items: center;
-        padding: 5px;
-        grid-template-columns: repeat(auto-fit, 32px);
-        grid-gap: 2% 3%;
-        grid-template-rows: repeat(auto-fit, minmax(33px,40px));
-        width: 50%;
-        padding: 0;
-    }
-
-} 
-@media (max-width: 600px) and (orientation: landscape) {
-
-    .div-abecedario-landscape{
-        height: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(15px, 20px));
-        grid-gap: 3% 4%;
-        grid-template-rows: repeat(auto-fit, minmax(25px,30px));
-        width: 50%;
-
-    }
-    #btn-letra{
-        font-size: 20px;
-    }
-
-}  */
