@@ -173,7 +173,8 @@ input::placeholder{
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 20%;
+  height: 30%;
+  max-height: 105px;
   width: 100%;
 }
 .info-descripcion{
