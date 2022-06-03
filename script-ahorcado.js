@@ -100,7 +100,7 @@ function cancelar(){
     inputAgregarPalabra.value='';
     inputAgregarPista.value='';
     inputAgregarPalabra.classList.remove('invalido');
-    descripcionAgregar.textContent='Las palabras que agregues se eliminarán cuando actualices la pgina.';
+    descripcionAgregar.textContent='Las palabras que agregues se eliminarán cuando actualices la página.';
 }
 
 btnInicioAgregar.onclick= SectionAgregarPalabra;

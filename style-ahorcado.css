@@ -56,7 +56,7 @@ header{
 
 .main{
  width: 90vw;
- height: 90vh;
+ height: 80vh;
  display: flex;
  align-items: center;
  align-content: center;
@@ -66,12 +66,10 @@ header{
 .section-iniciar{
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 100%;
   justify-content: center;
   align-content: center;
 }
-
-
 
 .botones-iniciar{
   display: flex;
@@ -124,7 +122,7 @@ header{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 90%;
+  height: 100%;
   width:90%;
   max-width: 600px;
   max-height: 900px;
@@ -218,8 +216,8 @@ input::placeholder{
 .section-juego-ahorcado{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  height: 90%;
+  justify-content: space-around;
+  height: 100%;
   width:80%;
   display: none;
   max-width: 800px;
@@ -358,13 +356,20 @@ input::placeholder{
 }
 
 .div-abecedario{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.letras-abecedario{
   display: grid;
-  height: 19%;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-items: center;
   padding: 5px;
   grid-template-columns: repeat(13, minmax(35px, 1fr));
-  grid-gap: 2% 3%;
+  grid-gap: 2% 2%;
   grid-template-rows: 1fr 1fr;
 }
 #btn-letra{
