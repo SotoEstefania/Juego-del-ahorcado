@@ -1,6 +1,6 @@
 @media screen and (max-width: 850px){
     .div-imagen-ambas{
-        height: 40vh;
+        height: 35vh;
     }
     .div-palabra{
         height: 12vh;
@@ -69,7 +69,7 @@
     }
     .letras-abecedario{
         grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-        grid-template-rows: repeat(auto-fit, minmax(60px, 60px));
+        grid-template-rows: auto;
     }
     #btn-letra{
         font-size: 30px;
@@ -127,9 +127,6 @@
     .btn2{
         height: 31%;
         width: 100%;
-    }
-    .letras-abecedario{
-        grid-template-rows:auto;
     }
 
 }
