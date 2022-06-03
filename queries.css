@@ -17,7 +17,7 @@
     }
     .btn2{
         font-size: 16px;
-        font-weight: 100;
+        font-weight: 200;
         width: 32%;
     }
     .div-abecedario{
@@ -29,26 +29,28 @@
 }
 @media screen and (max-width: 675px){
     header{
-        height: 8vh;
+        height: 50px;
     }
     #logo-alura{
-        height: 70%;
+        height: 40px;
     }
-
     #toggle{
-        width: 78px;
-        height: 39px;
+        width: 80px;
+        height: 40px;
     }
       
     #toggle .indicator{
-        width: 39px;
-        height: 39px;
+        width: 40px;
+        height: 40px;
     }
     #toggle.active .indicator{
-        left: 39px;
+        left: 40px;
     }
     .globo, .cuerda{
         height: 30px;
+    }
+    .botones-iniciar{
+        height: 30%;
     }
     .section-juego-ahorcado{
         height: 90%;
@@ -227,21 +229,7 @@
     }
 }
 @media screen and (max-width: 330px){
-    #toggle{
-        width: 66px;
-        height: 33px;
-    }
-      
-    #toggle .indicator{
-        width: 33px;
-        height: 33px;
-    }
-    #toggle.active .indicator{
-        left: 33px;
-    }
-    .globo, .cuerda{
-        height: 28px;
-    }
+
     .div-abecedario{
         height: 25%;
         grid-gap: 3% 3%;
@@ -257,22 +245,7 @@
 /* Landscape */
 @media (max-width: 700px) and (orientation: landscape) {
     header{
-        height: 11vh;
-    }
-    #toggle{
-        width: 64px;
-        height: 32px;
-    }
-      
-    #toggle .indicator{
-        width: 32px;
-        height: 32px;
-    }
-    #toggle.active .indicator{
-        left: 32px;
-    }
-    .globo, .cuerda{
-        height: 30px;
+        height: 10vh;
     }
     .main{
         width: 100vw;
@@ -282,7 +255,7 @@
         height: 30%;
     }
     .botones-iniciar{
-        height: 45%;
+        height: 40%;
     }
     .btn-iniciar{
         height: 45%;

@@ -6,9 +6,10 @@
 body{
   background-color: #f3f5fc;
   font-family: "Inter", Helvetica, sans-serif ;
+  font-weight: 200;
 }
 header{
-  height: 9vh;
+  height: 60px;
   width: 97vw;
   display: flex;
   margin: auto;
@@ -16,7 +17,7 @@ header{
   align-items: center;
 }
 #logo-alura{
-  height: 75%;
+  height: 50px;
 }
 #toggle{
   display: flex;
@@ -207,7 +208,7 @@ input::placeholder{
   height: 90%;
   display: flex;
   border-radius: 15px; 
-  font-weight: 100;
+  font-weight: 200;
   justify-content: center;
   align-items: center;
   font-size: 18px;
