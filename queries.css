@@ -1,4 +1,7 @@
 @media screen and (max-width: 850px){
+    .section-juego-ahorcado{
+        width: 90%;
+    }
     .div-imagen-ambas{
         height: 35vh;
     }
@@ -16,6 +19,9 @@
     .div-pista-botones{
         height: 15vh;
     }
+    .btn2{
+        width: 32%;
+    }
     .div-abecedario{
         height: 25vh;
     }
@@ -23,6 +29,9 @@
         padding: 0;
         grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
         grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+    }
+    .botones-juego{
+        height: 80%;
     }
 }
 @media screen and (max-width: 760px){
@@ -77,15 +86,16 @@
     .section-juego-ahorcado{
         width: 100%;
     }
-    .div-pista-botones{
-        height: 10vh;
-    }
     .div-palabra{
         height: 10vh;
         justify-content: space-around;
     }
+    .div-pista-botones{
+        height: 12vh;
+    }
     .btn2{
         max-height: 70px;
+
     }
     .letras-abecedario{
         grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
