@@ -161,10 +161,6 @@ function palabraAzar(){
    
     spanPista.innerHTML = palabras[random][1];
     spanPista.style.visibility='hidden';
-    console.log(palabras.indexOf(palabras[[random][0]]));
-    console.log(palabra);
-    console.log(palabras);
-    console.log(palabras.indexOf(palabras[random]));
     palabras.splice(palabras.indexOf(palabras[random]),1); 
 }
 
