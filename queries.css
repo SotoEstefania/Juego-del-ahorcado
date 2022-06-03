@@ -31,15 +31,7 @@
     }
 }
 @media screen and (max-width: 640px){
-    .main{
-        height: 90vh;
-    }
-    .div-botones-agregar-cancelar{
-        min-height: 50px;
-    }
-    .descripcion-agregar-palabra{
-        font-size: 13px;
-    }
+    
     header{
         height: 50px;
     }
@@ -61,11 +53,39 @@
         height: 35px;
         width: 35px;
     }
+    .main{
+        height: 90vh;
+    }
+    .btn-iniciar{
+        height: 12vh;
+        max-height: 90px;
+        width: 55vw;
+        font-size: 20px;
+    }
+    .btn-inicio-agregar{
+        height: 10vh;
+        max-height: 80px;
+        width: 50vw;
+        font-size: 16px;
+    }
+    .div-botones-agregar-cancelar{
+        min-height: 50px;
+    }
+    .descripcion-agregar-palabra{
+        font-size: 13px;
+    }
     .section-juego-ahorcado{
         width: 100%;
     }
+    .div-pista-botones{
+        height: 10vh;
+    }
+    .div-palabra{
+        height: 10vh;
+        justify-content: space-around;
+    }
     .btn2{
-        max-height: 50px;
+        max-height: 70px;
     }
     .letras-abecedario{
         grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
@@ -76,18 +96,7 @@
     }
 }
 @media screen and (max-width: 470px){
-    .btn-iniciar{
-        height: 12vh;
-        max-height: 50px;
-        width: 55vw;
-        font-size: 20px;
-    }
-    .btn-inicio-agregar{
-        height: 10vh;
-        max-height: 45px;
-        width: 50vw;
-        font-size: 16px;
-    }
+    
     .input-agregar-palabra, .input-agregar-pista{
         font-size: 28px;
     }
