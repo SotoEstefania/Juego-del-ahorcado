@@ -113,6 +113,14 @@ header{
   border-color: #84a8d8;
     color: #84a8d8;
 }
+.redes{
+  display: flex;
+  justify-content: center;
+}
+.imgredes{
+  width: 25px;
+  margin: 0px 15px;
+}
 
 .section-agregar-palabra{
   display:none;
